@@ -13,5 +13,6 @@ class index extends superclass {
   }
 
   public static void main(String as[]) {
+    index s = new index();
   }
 }
