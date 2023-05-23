@@ -8,7 +8,7 @@ class superclass {
 class index extends superclass {
 
   public index() {
-    super(10,40);
+    super(10,20);
     System.out.println("Inside subclass Constructer!!!");
   }
 
