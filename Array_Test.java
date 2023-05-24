@@ -10,7 +10,7 @@ public class Array_Test {
 
 	public Array_Test() {
 		
-		this.arr = new int[] {1,2,3,4,5};
+		this.arr = new int[] {1,2,3,4,5,7,8,9};
 		
 		
 	}
