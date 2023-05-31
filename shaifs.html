@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaif's </title>
+  
+    <style>
+        #container{
+             height: 500px;
+             width: 1200px;
+             border: 2px solid black;
+             margin: auto;
+             margin-top: 50px;
+             background-color:  #f5fcf4;
+        }
+        #navbar{
+            
+            height: 60px;
+            width: 80%;
+            /* border: 2px solid red; */
+            margin: auto;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #innerNavbar{
+            display: flex;
+            height: 70%;
+            width: 60%;
+            /* border: 2px solid green; */
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 10px;
+        }
+        button{
+            padding: 7px 13px 7px 13px;
+            color: white;
+            background-color: green;
+            border: 0px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #InnerMainPage{
+            /* margin-top: 80px; */
+            height:500px;
+            width: 90%;
+            /* border: 2px solid red; */
+            margin: auto;
+            display: flex;
+        }
+        #big{
+            height: 72%;
+            width: 100%;
+            margin-top: 50px;
+           
+        }
+        #InnerMainPage>div{
+            height: 100%;
+            width: 50%;
+            /* border: 3px solid cyan; */
+        }
+        #InnerMainPage>div:first-child{
+            height:50%;
+            width: 30%;
+            /* border: 4px solid purple; */
+            /* margin-left: 100px; */
+            margin-top: 150px;
+        }
+        #InnerMainPage>div:nth-child(2){
+            margin-left: 200px;
+        }
+        .hero__heading{
+            font-family: Poppins;
+            font-weight: 600;
+            line-height: 1.4em;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            color: var(--black-1);
+
+        }
+        .hero_info{
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: var(--black-2);
+            font-size: 1.4rem;
+
+        }
+        .btn_primary-btn{
+            color: white;
+            font-family: Poppins;
+            font-weight: 500;
+            border-radius: 8px;
+            font-size: 1.4rem;
+            padding:10px 20px 10px 20px;
+            background-color:green;
+            text-decoration: none;
+            margin-right: 19px;
+        }
+        .btn{
+            color: green;
+            font-weight: 500;
+            border-radius: 8px;
+            font-size: 1.4rem;
+            /* padding: 1.2rem 2rem; */
+            font-family: Poppins;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <img src="	https://d33wubrfki0l68.cloudfront.net/5509abae36c9c1c7d55a83ea5a1990f0d3b09c0a/12a1e/images/logo.svg" alt="shaif's cuisine">
+            <div id="innerNavbar">
+                <h3>Home</h3>
+                <h3>Menu</h3>
+                <h3>About</h3>
+                <h3>Conatct</h3>
+                <button >Book Table</button>
+            </div>
+           
+        </div>
+        <div id="InnerMainPage">
+            <div>
+                <h1 class="hero__heading">The flavor of tradition</h1>
+                <p class="hero_info">
+                  We are a multi-cuisine restaurant offering a wide variety of food experience in both casual and fine
+                  dining
+                  environment.
+                </p>
+                <div class="button__wrapper">
+                    <a href="./menu.html" class="btn_primary-btn">Explore Menu</a>
+                    <a href="./booking.html" class="btn">Book Table</a>
+                  </div>
+            </div>
+            <div>
+                <img id="big" src="https://d33wubrfki0l68.cloudfront.net/97f23aad561798433a43dff483fc3b8bfada0120/b8f3e/images/heroimg.png"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
